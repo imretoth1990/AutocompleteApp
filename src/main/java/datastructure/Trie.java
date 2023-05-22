@@ -2,14 +2,14 @@ package datastructure;
 
 public class Trie {
 
-    public TrieNode root;
+    public Node root;
 
     public Trie() {
-        this.root = new TrieNode('\0');
+        this.root = new Node('\0');
     }
 
     public void insert(String word) {
-        // TODO
+
     }
 
     public boolean remove(String word) {

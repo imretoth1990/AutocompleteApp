@@ -3,13 +3,13 @@ package datastructure;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TrieNode {
+public class Node {
 
     char value;
     boolean isTerminating;
-    List<TrieNode> children;
+    List<Node> children;
 
-    public TrieNode(char value) {
+    public Node(char value) {
         this.value = value;
         this.isTerminating = false;
         this.children = new ArrayList<>();
